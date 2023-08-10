@@ -1,0 +1,60 @@
+------Tarea 1: Estrategias de despliegue--------
+
+Que son?
+
+Las estrategias de despliegue se definen como la opción de modificar o actualizar una determina aplicación. 
+Idealmente, se busca llevar a cabo las transformaciones en el sistema sin tener periodos de inactividad, para 
+que el cliente no se vea impactado por este.
+
+Cuales son las estrategias de despliegue?
+
+Despliegue Continuo (Continuous Deployment): En esta estrategia, cada cambio en el código es automáticamente desplegado 
+en producción después de pasar por una serie de pruebas automatizadas. Es un enfoque que busca mantener el software en 
+un estado siempre listo para ser desplegado. Es ideal para equipos que buscan entregar cambios frecuentes y pequeños.
+
+Despliegue Continuo a Producción (Continuous Deployment to Production): Similar al despliegue continuo, pero en este caso, 
+los cambios son desplegados directamente en el entorno de producción. Esto requiere una confianza muy alta en la automatización 
+y en las pruebas para asegurar que los cambios no afectarán negativamente a los usuarios finales.
+
+Despliegue Continuo a Etapas (Continuous Deployment to Staging): Los cambios se despliegan primero en un entorno de prueba o 
+preparación (staging) antes de ser desplegados en producción. Esto permite realizar pruebas adicionales antes de liberar los cambios al público.
+
+Despliegue por Lotes (Batch Deployment): Los cambios se agrupan en lotes y se despliegan en intervalos regulares. Esto puede 
+ayudar a reducir el impacto de posibles problemas en producción, ya que se limita la cantidad de cambios liberados a la vez.
+
+Despliegue Incremental (Incremental Deployment): Los cambios se implementan en etapas pequeñas y manejables. Cada iteración agrega
+nuevas características o cambios, lo que permite una adaptación gradual y un monitoreo más efectivo.
+
+Despliegue Azul-Verde (Blue-Green Deployment): Se mantienen dos entornos idénticos: el entorno "azul" (blue) que está en producción 
+y el entorno "verde" (green) que es una copia actualizada. Las versiones antiguas y nuevas se alternan entre los entornos. Esto permite 
+cambiar de manera rápida y segura entre las versiones, ya que solo un entorno está activo en un momento dado.
+
+Despliegue Canario (Canary Deployment): Se despliega una nueva versión solo a un subconjunto reducido de usuarios o servidores, permitiendo 
+monitorear y evaluar el impacto de los cambios en un entorno controlado antes de implementarlos en toda la infraestructura.
+
+Rollback (Reversión): No es exactamente una estrategia de despliegue, pero es importante tener una forma de regresar a una versión anterior 
+en caso de que surjan problemas graves después de un despliegue. El rollback implica retroceder a una versión anterior para restaurar la funcionalidad.
+
+----------Tarea 2:Cmmi y que problemas resuelve de la gestión de la configuracion-------------
+
+El Modelo de Madurez de la Capacidad y la Integración (CMMI, por sus siglas en inglés) es un marco de referencia que se utiliza para mejorar los procesos 
+de desarrollo y gestión en organizaciones. Proporciona un enfoque estructurado para evaluar y mejorar la madurez y la capacidad de los procesos en áreas
+como el desarrollo de software, la gestión de proyectos, la gestión de la calidad y más.
+
+CMMI se divide en niveles de madurez que representan etapas evolutivas en las que una organización puede estar en términos de sus capacidades 
+de proceso. Cada nivel de madurez tiene ciertos objetivos y prácticas específicas que las organizaciones deben cumplir para avanzar en su camino hacia la mejora continua.
+
+En cuanto a la gestión de la configuración, CMMI aborda este aspecto como parte de su enfoque holístico en la mejora de procesos. La gestión de la 
+configuración es fundamental para garantizar que los elementos de software y sistemas se gestionen adecuadamente a lo largo de su ciclo de vida, 
+desde su creación hasta su retiro. Los problemas que CMMI puede ayudar a resolver en la gestión de la configuración incluyen:
+
+-control de versiones
+-gestion de cambios
+-auditorías de configuracion
+-Seguimiento de baselines
+-integracion continua
+
+En resumen, CMMI aborda la gestión de la configuración como parte integral de su enfoque en mejorar los procesos en toda la organización, lo que 
+resulta en una mayor eficiencia, calidad y control en el desarrollo y mantenimiento de software y sistemas.
+
+
