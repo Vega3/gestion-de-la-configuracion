@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link href="https://fonts.googleapis.com/css2?family=Fraunces&display=swap" rel="stylesheet">
-    <link href="index.css" rel="stylesheet" />
-    <script src="Display.js" type="text/javascript"></script>
-    <script src="Calculadora.js" type="text/javascript"></script>
-    <script src="index.js" type="text/javascript" defer></script>
+    <link href="assets/css/index.css" rel="stylesheet" />
+    <script src="assets/javascript/Display.js" type="text/javascript"></script>
+    <script src="assets/javascript/Calculadora.js" type="text/javascript"></script>
+    <script src="assets/javascript/index.js" type="text/javascript" defer></script>
 </head>
 <body>
     <div class="container">
@@ -39,3 +39,4 @@
     </div>
 </body>
 </html>
+

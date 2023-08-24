@@ -14,7 +14,7 @@
         echo'
             <script>
                 alert("Sesion iniciada correctamente!!");
-                window.location = "../Calculadora/index_calculator.php";
+                window.location = "../index_calculator.php";
             </script>
         ';
         exit;
