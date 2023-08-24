@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calculadora Web Básica con Inicio de Sesión
 
 Este proyecto es una calculadora web básica que incluye funcionalidad de inicio de sesión para los usuarios. Los usuarios pueden registrarse (sign up) o iniciar sesión (sign in) para acceder a la calculadora y realizar operaciones matemáticas simples.
@@ -28,3 +29,6 @@ Este proyecto es una calculadora web básica que incluye funcionalidad de inicio
 
 
 
+=======
+# gestion-de-la-configuracion
+>>>>>>> c46ace7401156ab80170b844696fd9556b8fc007
