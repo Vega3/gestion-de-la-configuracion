@@ -6,7 +6,7 @@ operaciones basicas como sumas, restas, multiplicaciones y divisiones.
 
 Colaboradores del proyecto: Daniel Morales Toro - Santiago Tuberquia Correa
 
-Si deseas conocer mas acerca de las caracteristicas y el proceso de instalacion da click en este link:
+Si deseas conocer mas acerca de las caracteristicas y el proceso de instalacion da click en este link: [Click aqui👇](https://github.com/Vega3/gestion-de-la-configuracion/wiki/Caracteristicas)
 
 
 
