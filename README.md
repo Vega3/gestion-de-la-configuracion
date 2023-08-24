@@ -1,39 +1,30 @@
-# Calculadora Web
+# Calculadora Web Básica con Inicio de Sesión
 
-Una calculadora web simple construida con HTML, CSS y JavaScript.
-
-## Características
-
-- Realiza cálculos matemáticos básicos.
-- Interfaz de usuario intuitiva y fácil de usar.
-- Incluye funciones de suma, resta, multiplicación y división.
-- Admite operaciones con números decimales.
-
-## Instrucciones de Uso
-
-1. Ingresa los números y operadores usando los botones.
-2. Haz clic en el botón de igual (=) para obtener el resultado del cálculo.
-3. Utiliza el botón "C" para borrar la entrada actual.
-4. ¡Explora las funciones y diviértete calculando!
+Este proyecto es una calculadora web básica que incluye funcionalidad de inicio de sesión para los usuarios. Los usuarios pueden registrarse (sign up) o iniciar sesión (sign in) para acceder a la calculadora y realizar operaciones matemáticas simples.
 
 ## Tecnologías Utilizadas
 
+- JavaScript
 - HTML
 - CSS
-- JavaScript
+- PHP
+- XAMPP (para la administración de la base de datos)
 
-## Instalación
+## Características
 
-1. Clona este repositorio: `https://github.com/Vega3/Calculator.git`
-2. Abre el archivo `index.html` en tu navegador web.
+- Calculadora web básica que permite realizar operaciones matemáticas simples como suma, resta, multiplicación y división.
+- Sistema de autenticación de usuarios con opciones de registro (sign up) e inicio de sesión (sign in).
+- Almacenamiento seguro de credenciales de usuario utilizando técnicas de encriptación en la base de datos.
+- Interfaz de usuario intuitiva y agradable gracias a la combinación de HTML y CSS.
 
-## Contribución
 
-¡Contribuciones son bienvenidas! Si deseas contribuir al proyecto, sigue estos pasos:
+## Configuración del Entorno
 
-1. Haz un fork de este repositorio.
-2. Crea una rama para tu función/bugfix: `git checkout -b feature-nueva-funcion`
-3. Haz tus cambios y commitea: `git commit -m 'Agrega una nueva función'`
-4. Envía tus cambios a tu fork: `git push origin feature-nueva-funcion`
-5. Envía una solicitud de extracción (pull request) a este repositorio.
+1. Instala XAMPP y asegúrate de que el servidor web Apache y el servidor de bases de datos MySQL estén en funcionamiento.
+2. Importa la estructura de la base de datos desde el archivo `database.sql` proporcionado en este repositorio.
+3. Clona este repositorio en tu directorio de proyectos de XAMPP (`htdocs` en la mayoría de los casos).
+4. Abre tu navegador web y accede a la URL `http://localhost/nombre-de-la-carpeta-del-proyecto`.
+
+
+
 
